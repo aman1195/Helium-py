@@ -1,0 +1,26 @@
+# Core Dependencies
+python-dotenv==1.0.0
+pydantic==2.5.3
+
+# LLM and AI
+langchain==0.1.0
+langgraph==0.0.15
+google-generativeai==0.3.2
+
+# Web and API (Windows compatible)
+fastapi==0.104.1
+uvicorn[standard]==0.24.0  # Standard version without uvloop
+httpx==0.25.1
+jinja2==3.1.2
+python-multipart==0.0.6
+
+# Data Processing (using pre-built wheels)
+numpy>=1.24.0; python_version < '3.12'
+pandas>=2.0.0; python_version < '3.12'
+
+# Testing
+pytest==7.4.3
+pytest-asyncio==0.21.1
+
+# Windows specific
+pywin32>=300; sys_platform == 'win32'

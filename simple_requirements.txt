@@ -1,0 +1,14 @@
+# Core Dependencies
+python-dotenv==1.0.0
+pydantic==2.5.3
+
+# Web Framework
+flask==3.0.0
+
+# LLM and AI
+langchain==0.1.0
+langgraph==0.0.15
+google-generativeai==0.3.2
+
+# Windows specific
+pywin32>=300; sys_platform == 'win32'
